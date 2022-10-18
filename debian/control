@@ -1,0 +1,30 @@
+Source: ruby-coffee-rails
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Build-Depends: debhelper-compat (= 12),
+               gem2deb,
+               ruby-coffee-script,
+               ruby-nokogiri,
+               ruby-railties,
+               ruby-sprockets-rails
+Standards-Version: 4.5.0
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-coffee-rails.git
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-coffee-rails
+Homepage: https://github.com/rails/coffee-rails
+Testsuite: autopkgtest-pkg-ruby
+XS-Ruby-Versions: all
+
+Package: ruby-coffee-rails
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ruby | ruby-interpreter,
+         ruby-coffee-script,
+         ruby-railties,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Coffee Script adapter for the Rails asset pipeline
+ This package adds the ability to write Coffee Script code for a Rails
+ application and have it automatically compiled into Javascript before being
+ sent to the clients.

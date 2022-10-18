@@ -1,0 +1,11 @@
+--- a/test/assets_test.rb
++++ b/test/assets_test.rb
+@@ -26,7 +26,7 @@ class AssetsTest < ActiveSupport::TestCa
+     @app.assets["coffee-script"].write_to("#{tmp_path}/coffee-script.js")
+ 
+     assert_match "/lib/assets/javascripts/coffee-script.js.erb", @app.assets["coffee-script"].pathname.to_s
+-    assert_match "CoffeeScript Compiler", File.open("#{tmp_path}/coffee-script.js").read
++    assert_match "var CoffeeScript=function()", File.open("#{tmp_path}/coffee-script.js").read
+   end
+ 
+   def tmp_path

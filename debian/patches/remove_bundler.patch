@@ -1,0 +1,15 @@
+remove requirement of bundler
+
+Index: ruby-coffee-rails/test/test_helper.rb
+===================================================================
+--- ruby-coffee-rails.orig/test/test_helper.rb
++++ ruby-coffee-rails/test/test_helper.rb
+@@ -1,7 +1,7 @@
+ # Configure Rails Envinronment
+ ENV["RAILS_ENV"] = "test"
+ 
+-require 'bundler/setup'
++#require 'bundler/setup'
+ require 'rails'
+ require "rails/test_help"
+ 

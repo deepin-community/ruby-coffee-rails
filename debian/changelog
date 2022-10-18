@@ -1,0 +1,82 @@
+ruby-coffee-rails (5.0.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Fix test failure due to updated ruby-coffee-script (Closes: #980583)
+
+ -- Antonio Terceiro <terceiro@debian.org>  Sun, 14 Feb 2021 17:11:42 -0300
+
+ruby-coffee-rails (5.0.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Reupload to unstable
+
+ -- Pirate Praveen <praveen@debian.org>  Mon, 03 Aug 2020 00:14:55 +0530
+
+ruby-coffee-rails (5.0.0-1) experimental; urgency=medium
+
+  * Team upload.
+
+  [ Sruthi Chandran ]
+  * Bump Standards-Version to 4.2.1 (no changes needed)
+
+  [ Utkarsh Gupta ]
+  * Add salsa-ci.yml
+
+  [ Debian Janitor ]
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Pirate Praveen ]
+  * New upstream version 5.0.0
+  * Bump Standards-Version to 4.5.0 (no changes needed)
+  * Use gem-install layout and drop engine-root.patch
+
+ -- Pirate Praveen <praveen@debian.org>  Mon, 13 Jul 2020 21:37:02 +0530
+
+ruby-coffee-rails (4.2.2-1) unstable; urgency=medium
+
+  * New upstream release
+  * Add myself to uploaders
+
+ -- Sruthi Chandran <srud@disroot.org>  Fri, 04 May 2018 18:01:55 +0530
+
+ruby-coffee-rails (4.1.0-2) unstable; urgency=medium
+
+  * Upload to unstable
+
+ -- Antonio Terceiro <terceiro@debian.org>  Sat, 12 Dec 2015 16:47:49 -0200
+
+ruby-coffee-rails (4.1.0-1) experimental; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Refresh patches.
+  * Add short license to copyright.
+  * Bump standards version to 3.9.6.
+  * Run tests.
+  * Add ruby-railties, ruby-coffee-script, ruby-sprockets-rails to build deps.
+  * Add ruby-nokogiri to build deps.
+
+ -- Pirate Praveen <praveen@debian.org>  Thu, 06 Aug 2015 14:20:47 +0530
+
+ruby-coffee-rails (4.0.1-1) unstable; urgency=medium
+
+  * New upstream release
+  * Change depenency on ruby-railties-3.2 to just ruby-railties
+
+ -- Antonio Terceiro <terceiro@debian.org>  Sat, 02 Aug 2014 23:41:58 -0300
+
+ruby-coffee-rails (3.2.2-2) unstable; urgency=medium
+
+  * No changes rebuild to add support for new interpreters
+
+ -- Antonio Terceiro <terceiro@debian.org>  Sat, 29 Mar 2014 12:28:39 -0300
+
+ruby-coffee-rails (3.2.2-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Antonio Terceiro <terceiro@debian.org>  Wed, 27 Jun 2012 21:59:48 -0300

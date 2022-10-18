@@ -1,0 +1,6 @@
+version=4
+opts=\
+dversionmangle=s/\+(debian|dfsg|ds|deb)(\.\d+)?$//,\
+filenamemangle=s/.*\/v?([\d\.-]+)\.tar\.gz/ruby-coffee-rails-$1.tar.gz/ \
+https://github.com/rails/coffee-rails/tags \
+.*/archive/v?([\d\.]+).tar.gz
